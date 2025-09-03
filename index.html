@@ -33,14 +33,14 @@
              <h2 class="text-3xl font-bold text-[#004D40] mb-4 text-center">The "Safety Canary" Initiative</h2>
              <p class="text-center text-gray-600 mb-6">This strategy centers on a new, ownable AI character: the **EcoOnline Safety Canary**. This character, a witty and knowledgeable canary in a tiny hard hat, will deliver daily safety tips. The humor comes from the contrast between a small, charming bird and serious, expert advice. This approach is designed to be highly shareable, memorable, and directly ties into the EcoOnline brand story of the "canary in the coal mine" being set free.</p>
              <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-center text-sm">
-                <div class="bg-green-50 p-4 rounded-lg">
-                    <h4 class="font-bold text-[#004D40]">Pillar-Driven Daily Shorts</h4>
-                    <p class="text-gray-700 mt-1">Each day of the week will be dedicated to one of the five core product pillars, ensuring balanced coverage while delivering consistent value.</p>
-                </div>
                  <div class="bg-green-50 p-4 rounded-lg">
-                    <h4 class="font-bold text-[#004D40]">Data-Driven Long-Form Content</h4>
-                    <p class="text-gray-700 mt-1">One long-form video will be released per month, focusing on a deeper dive into the most engaging topic from the previous month's Shorts.</p>
-                </div>
+                     <h4 class="font-bold text-[#004D40]">Pillar-Driven Daily Shorts</h4>
+                     <p class="text-gray-700 mt-1">Each day of the week will be dedicated to one of the five core product pillars, ensuring balanced coverage while delivering consistent value.</p>
+                 </div>
+                  <div class="bg-green-50 p-4 rounded-lg">
+                     <h4 class="font-bold text-[#004D40]">Data-Driven Long-Form Content</h4>
+                     <p class="text-gray-700 mt-1">One long-form video will be released per month, focusing on a deeper dive into the most engaging topic from the previous month's Shorts.</p>
+                 </div>
              </div>
         </section>
 
@@ -50,19 +50,19 @@
             <div class="mb-10">
                 <h3 class="text-2xl font-bold mb-4 text-[#004D40] border-b-2 border-[#A5D6A7] pb-2">Month 1: Foundation & Launch</h3>
                 <div id="month1-scripts" class="space-y-2">
-                    </div>
+                </div>
             </div>
 
             <div class="mb-10">
                 <h3 class="text-2xl font-bold mb-4 text-[#004D40] border-b-2 border-[#A5D6A7] pb-2">Month 2: Building Cadence</h3>
                 <div id="month2-scripts" class="space-y-2">
-                    </div>
+                </div>
             </div>
 
             <div class="mb-10">
                 <h3 class="text-2xl font-bold mb-4 text-[#004D40] border-b-2 border-[#A5D6A7] pb-2">Month 3: Scaling & Authority</h3>
                 <div id="month3-scripts" class="space-y-2">
-                    </div>
+                </div>
             </div>
 
         </section>
@@ -71,34 +71,99 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            const contentData = [
-                // MONTH 1
-                { week: 1, day: 'Mon', pillar: 'EHS', title: "OSHA's #1 Violation (It's Not What You Think)", script: `**Visual:** The Safety Canary stands on a slightly frayed power cord.\n**Voice:** "Think the biggest danger is up high? Nope. It's right here. Electrical violations are OSHA's #1 headache. A tiny crack can mean a massive shock... or a fine big enough to buy this whole forest. Check your cords."` },
-                { week: 1, day: 'Tue', pillar: 'Chemical', title: "GHS Pictograms Aren't Suggestions", script: `**Visual:** The Safety Canary points a wing at the 'flame over circle' pictogram.\n**Voice:** "See this pretty picture? It means 'will violently start a fire if it touches the wrong thing.' It's not a suggestion. It's a promise. Read the label, respect the symbol."` },
-                { week: 1, day: 'Wed', pillar: 'ESG', title: "What's Your Carbon Footprint... in Squirrels?", script: `**Visual:** The Safety Canary stands next to a pile of acorns.\n**Voice:** "Your company's carbon footprint can feel abstract. Think of it this way: one ton of CO2 is like taking 1,000 squirrels' winter stash. Want to save the squirrels? Start tracking your Scope 1 emissions. It's easier than you think."` },
-                { week: 1, day: 'Thu', pillar: 'Lone Worker', title: "Working Alone? Don't Be a Hero.", script: `**Visual:** The Safety Canary is alone on a high branch, looking into the distance.\n**Voice:** "Out here alone? The deadliest phrase is 'I'm fine.' A simple check-in isn't nagging. It's a lifeline. If you don't check in, no one knows you need help. Don't be a hero."` },
-                { week: 1, day: 'Fri', pillar: 'Crisis', title: "Your Crisis Plan is Useless If It's in a Binder", script: `**Visual:** The Safety Canary tries to lift a tiny, oversized binder and fails.\n**Voice:** "Fire, flood, earthquake... what's the plan? If it's locked in this binder, in this office, you don't have a plan. You have a paperweight. Your plan needs to be on your phone. Period."` },
-                
-                { week: 2, day: 'Mon', pillar: 'EHS', title: "This Ladder is a Lawsuit", script: `**Visual:** The Safety Canary points to a wobbly ladder with a cracked step.\n**Voice:** "See this? It's not just a wobbly ladder. It's a broken ankle, a workers' comp claim, and a visit from a guy named 'inspector.' Three points of contact can't save you from a faulty tool. Tag it out."` },
-                { week: 2, day: 'Tue', pillar: 'Chemical', title: "What Happens When You Mix Bleach & Ammonia?", script: `**Visual:** The Safety Canary stands between two tiny bottles labeled 'Bleach' and 'Ammonia'.\n**Voice:** "Thinking of mixing these to clean? Don't. You're not making a super-cleaner. You're making chlorine gas. The same stuff used in World War I. Don't be a war criminal. Read the SDS."` },
-                { week: 2, day: 'Wed', pillar: 'ESG', title: "ESG Isn't Fluffy. It's Money.", script: `**Visual:** The Safety Canary sits on a pile of tiny gold coins.\n**Voice:** "Think ESG is about hugging trees? Wrong. It's about risk. It's about investors asking 'Is this company a good bet for the next 20 years?' Bad ESG is bad business. Good ESG is just good business."` },
-                { week: 2, day: 'Thu', pillar: 'Lone Worker', title: "The Most Important Tool for Lone Workers", script: `**Visual:** The Safety Canary holds up a tiny smartphone.\n**Voice:** "Your most important tool isn't your wrench. It's this. A dead phone means you're completely isolated. A charged phone with a check-in app means you're never truly alone. Charge your lifeline."` },
-                { week: 2, day: 'Fri', pillar: 'Crisis', title: "When the Fire Alarm Rings, Do This First", script: `**Visual:** The Safety Canary calmly directs other small birds toward an exit sign.\n**Voice:** "Fire alarm goes off. What's the first thing you do? Grab your keys? Your laptop? Wrong. You walk, calmly, to the nearest exit. Everything else is replaceable. You aren't."` },
-
-                { week: 3, day: 'Mon', pillar: 'EHS', title: "Why Your Toolbox Talks Are Failing", script: `**Visual:** The Safety Canary looks bored as another bird chirps endlessly.\n**Voice:** "If you're just reading from a sheet of paper, it's not a talk. It's a lecture. And no one's listening. Ask one question. Show one picture. Make it a conversation. It's more effective."` },
-                { week: 3, day: 'Tue', pillar: 'Chemical', title: "That's Not 'Just Water.' Check the Label.", script: `**Visual:** The Safety Canary looks suspiciously at a clear liquid in an unlabeled bottle.\n**Voice:** "Looks like water. Smells like water. Could be a solvent that will melt your gloves. If it's not labeled, don't touch it. Simple as that. The risk isn't worth it."` },
-                { week: 3, day: 'Wed', pillar: 'ESG', title: "What is 'Greenwashing' in 60 seconds", script: `**Visual:** The Safety Canary paints a brown leaf green.\n**Voice:** "This is greenwashing. Saying you're sustainable without the data to back it up. Investors see right through it. Real ESG is about transparent data, not pretty pictures. Don't be this leaf."` },
-                { week: 3, day: 'Thu', pillar: 'Lone Worker', title: "Slips, Trips, and Falls are Different When You're Alone", script: `**Visual:** The Safety Canary carefully navigates around a small puddle on the floor.\n**Voice:** "A simple slip and fall in an office is an embarrassment. A slip and fall when you're working alone can be a tragedy. Pay extra attention to your surroundings. Your only backup is you."` },
-                { week: 3, day: 'Fri', pillar: 'Crisis', title: "The 'Muster Point' isn't a suggestion", script: `**Visual:** The Safety Canary stands alone, looking around a designated muster point sign.\n**Voice:** "In a crisis, we go to the muster point. Why? So we know you're not still inside. It's not a suggestion, it's how we make sure everyone is safe. Know your point."` },
-                
-                { week: 4, day: 'Mon', pillar: 'EHS', title: "The Difference Between a Hazard and a Risk", script: `**Visual:** The Safety Canary points to a sleeping cat, then to a mouse walking past it.\n**Voice:** "That cat is a hazard. The mouse walking past it? That's a risk. See the difference? Safety isn't about eliminating all hazards. It's about managing risk. Know what you're dealing with."` },
-                { week: 4, day: 'Tue', pillar: 'Chemical', title: "Why You Can't Smell a Chemical Leak", script: `**Visual:** The Safety Canary sniffs the air, then shakes its head.\n**Voice:** "Think you can smell a gas leak? Many toxic gases are odorless. That's called olfactory fatigue. Your nose gets used to it and stops warning you. Trust the monitor, not your beak."` },
-                { week: 4, day: 'Wed', pillar: 'ESG', title: "What is Scope 1, 2, and 3 Emissions?", script: `**Visual:** The Canary points to a car (Scope 1), a power plant (Scope 2), and a delivery truck (Scope 3).\n**Voice:** "Scope 1: Your car. Scope 2: The electricity that charges it. Scope 3: The truck that delivered its parts. You have to measure all three. That's real carbon accounting."` },
-                { week: 4, day: 'Thu', pillar: 'Lone Worker', title: "Panic Buttons Aren't Just for Panic", script: `**Visual:** The Safety Canary calmly presses a tiny panic button.\n**Voice:** "This isn't just for emergencies. Feeling unsafe? Unsure about a situation? A discreet press can alert your team without escalating the situation. It's a check-in button, not just a panic button."` },
-                { week: 4, day: 'Fri', pillar: 'Long-Form', title: "The Ultimate Guide to a Flawless Safety Audit", script: `**Full Script:** This 10-minute video will break down the five key phases of preparing for and passing a safety audit. We'll cover documentation, team prep, the walkthrough, the interview process, and how to handle the follow-up. Includes a downloadable checklist for managers.` },
-                
-                // MONTH 2 & 3 would continue this pattern...
+            const month1Data = [
+                { week: 1, day: 'Mon', pillar: 'EHS', title: "OSHA's #1 Violation (It's a Shocker!)", script: `**Visual:** The Canary is vibrating next to a frayed cord, eyes wider than saucers. He pokes it with a tiny stick, gets zapped across the room, leaving a canary-shaped scorch mark. He stumbles back into frame, smoking slightly.\n**Voice (super-fast, breathless):** "Okayokayokay—DEEP BREATHS—it's not the fall, it's the sudden ZZZAP AND THE ELECTROCUTION! See?! Frayed cord! Big ouch! I'm fine! My feathers will grow back! I think! JUST CHECK THE CORDS SO I CAN LOWER MY HEART RATE TO A MERE 500 BEATS PER MINUTE!"` },
+                { week: 1, day: 'Tue', pillar: 'Chemical', title: "This Pretty Picture Wants to Hurt You", script: `**Visual:** The Canary wears a tiny tinfoil hat, staring at the 'flame over circle' pictogram. A single drop of water lands near him. He screams, jumps into a tiny bunker, and slams the door.\n**Voice (yelling from the bunker):** "IT'S NOT A SUGGESTION! IT'S A THREAT! A pictionary of doom! That little circle is promising a world of hurt and loud noises! READ THE LABEL BEFORE—IS THAT RAIN?!—IT ERASES YOU FROM EXISTENCE!"` },
+                { week: 1, day: 'Wed', pillar: 'ESG', title: "Your Carbon Footprint vs. Squirrel Dreams", script: `**Visual:** The Canary has built an elaborate acorn city. A shadow of a "CO2" boot crushes it. He falls to his knees, cradling a single, cracked acorn. He looks at the camera, a single tear rolling down his cheek.\n**Voice (dramatic, sobbing):** "Acorn-opolis... gone. Reduced to splinters. Your emissions aren't just numbers; they're the shattered dreams of squirrels everywhere! Do you hear their tiny cries?! I do! THEY HAUNT ME!"` },
+                { week: 1, day: 'Thu', pillar: 'Lone Worker', title: "Working Alone? Don't Become a Weird Story.", script: `**Visual:** The Canary dangles upside down from a cord, spinning slowly. He fumbles his phone, it drops, and shatters (comically). He looks at the camera, utterly defeated.\n**Voice (panicked, whisper-shouting):** "This is not a drill! Phone... gone. Lifeline... severed. I see a tunnel... it's very dark... and I think I smell burnt toast! USE THE CHECK-IN APP BEFORE YOU END UP A PENDULUM OF REGRET!"` },
+                { week: 1, day: 'Fri', pillar: 'Crisis', title: "Your Crisis Plan is a Great Paperweight", script: `**Visual:** A tiny wisp of smoke rises. The Canary pulls out a massive binder, trips, and it lands on the smoke, smothering it. He then can't lift the binder off. He's trapped.\n**Voice (straining):** "Okay, crisis averted by... clumsiness. BUT NOW I'M TRAPPED! Under the plan! The irony is crushing me! Literally! Put the plan on your phone! It's lighter! And it won't pin you down during a fire!"` },
             ];
+
+            const month2Data = [
+                 { week: 5, day: 'Mon', pillar: 'EHS', title: "This Ladder Has Trust Issues", script: `**Visual:** The Canary nervously tests a wobbly ladder. It suddenly springs to life and folds him up inside it like a pretzel. Two little feet stick out the top.\n**Voice (muffled):** "I KNEW IT! This isn't a ladder, it's an ambush predator! Three points of contact means nothing if the tool itself is plotting against you! TAG IT OUT BEFORE IT GETS YOU, TOO!"` },
+                 { week: 5, day: 'Tue', pillar: 'Chemical', title: "Forbidden Chemistry: Bleach & Ammonia", script: `**Visual:** The Canary is dressed like a tiny mad scientist. He accidentally mixes Bleach and Ammonia. A green cloud appears. When it clears, his feathers are bright pink and standing on end.\n**Voice (squeaky, coughing):** "FOR SCIENCE! ...I have made a terrible mistake. This is not a super-cleaner, it is a super-regret! My voice is now higher than my anxiety! Which is saying something! Read the SDS!"` },
+                 { week: 5, day: 'Wed', pillar: 'ESG', title: "ESG: So Much Money It's a Hazard", script: `**Visual:** The Canary is swimming Scrooge McDuck-style in a pile of tiny coins. He gets a cramp and starts sinking.\n**Voice (panicked):** "It's a sea of profit! But it's also a legitimate drowning hazard! Good ESG is good business, but manage your risk! I can't feel my wings! SEND HELP AND A TINY LIFE PRESERVER!"` },
+                 { week: 5, day: 'Thu', pillar: 'Lone Worker', title: "Your Phone Died. So Might You.", script: `**Visual:** The Canary’s phone battery dies. The lights in the room go out one by one, leaving him in a single, terrifying spotlight. He whimpers.\n**Voice (terrified whisper):** "Darkness... my old friend. Why is it so... menacing? A dead phone is the start of every horror movie! Charge your lifeline! I think... I think something touched my foot!"` },
+                 { week: 5, day: 'Fri', pillar: 'Crisis', title: "Fire Alarm vs. Your Stuff", script: `**Visual:** A fire alarm blares. The Canary runs back to grab his favorite seed bell, but a tiny sprinkler system activates directly above him, soaking him completely. He stands there, dripping and defeated.\n**Voice:** "My bell! It was the good kind with the millet! It's ruined! But I'm not! Your stuff can be replaced. You can't! And neither can my seed bell, but my point still stands! JUST GET OUT!"` },
+            ];
+
+            const month3Data = [
+                 { week: 9, day: 'Mon', pillar: 'EHS', title: "Is Your Toolbox Talk a Sleeping Pill?", script: `**Visual:** The Canary is giving a toolbox talk to other birds who are all fast asleep. He tries yelling, using puppets, nothing works. He finally just falls asleep too.\n**Voice (waking up with a snort):** "—and that's why we... huh? Oh no. I lost them. And myself. If your safety talk is boring, it's also useless! Ask a question! Juggle something! ANYTHING BUT MONOTONE!"` },
+                 { week: 9, day: 'Tue', pillar: 'Chemical', title: "Mystery Liquid: A Cautionary Tale", script: `**Visual:** The Canary pokes an unlabeled bottle of clear liquid. A single drop flies out and lands on a tiny houseplant next to him, which comically wilts and turns to dust.\n**Voice (eyes wide with terror):** "Poor Fern... he had a family. Unlabeled containers are playing Russian Roulette with chemistry! Don't be the reason a fern's life is tragically cut short. LABEL. EVERYTHING."` },
+                 { week: 9, day: 'Wed', pillar: 'ESG', title: "Greenwashing: Don't Be a Leaf-Painter", script: `**Visual:** The Canary is painting a brown leaf green. He holds it up proudly, but the wind blows and the green paint flakes off, revealing the sad, brown leaf underneath. He looks embarrassed.\n**Voice:** "See? It looks good from a distance, but up close it's just... sad. And flaky. That's greenwashing! Real sustainability has roots, people! DATA! Not a cheap coat of paint! Now everyone knows my secret..."` },
+                 { week: 9, day: 'Thu', pillar: 'Lone Worker', title: "The Terrifying Amplification of a Drip", script: `**Visual:** The Canary is alone in a silent room. A single drop of water drips from the ceiling, but it sounds like a cannon blast. He jumps, terrified, and hides under a desk.\n**Voice:** "WHAT WAS THAT?! Oh. It's just a drip. But when you're alone, every little sound is a monster under the bed! Stay aware, stay calm, and for goodness sake, fix the leak before I have a heart attack!"` },
+                 { week: 9, day: 'Fri', pillar: 'Crisis', title: "Muster Point: The Loneliest Place on Earth", script: `**Visual:** The Canary stands at the muster point. It's empty. He starts to imagine everyone else is inside having a party without him. He checks his tiny watch, looking sad.\n**Voice:** "So this is it. The end of the line. Forgotten. The muster point isn't just a place, it's a headcount! It's how we know you're safe and not... missing the post-crisis pizza party. Wait, is there a pizza party?"` },
+            ];
+
+            const longFormData = [
+                { week: 4, pillar: 'Long-Form', title: "How to Survive a Safety Audit (Without Crying)", script: `**Canary's Intro:** "Hi! Me again! That guy from the audit is coming and you're not ready! It's okay! We're gonna get through this together! This video is your survival guide to looking like you have it all together, even if you're panicking on the inside, like me! Always!"` },
+                { week: 8, pillar: 'Long-Form', title: "Chemical Safety: Things I Learned The Hard Way", script: `**Canary's Intro:** "So. You like your feathers the color they are now? You enjoy having eyebrows? GREAT! Then you should watch this. I've been shocked, zapped, singed, and briefly turned pink so you don't have to be. You're welcome."` },
+                { week: 12, pillar: 'Long-Form', title: "Building a Crisis Plan That Isn't a Deathtrap", script: `**Canary's Intro:** "Is your crisis plan currently trapping you under its immense weight? Is it flammable? Let's fix that. Here's how to make a plan that actually helps in a crisis, instead of just becoming part of the problem. Trust me, I know."` }
+            ];
+            
+            // Function to generate the full 3-month data
+            function getFullContentData() {
+                let fullData = [];
+                let currentWeek = 1;
+                
+                // Month 1
+                fullData.push(...month1Data.slice(0, 5).map(i => ({...i, week: currentWeek++})));
+                fullData.push({...month1Data[0], week: currentWeek++}); //W2
+                fullData.push({...month1Data[1], week: currentWeek});
+                fullData.push({...month1Data[2], week: currentWeek++});
+                fullData.push({...month1Data[3], week: currentWeek});
+                fullData.push({...month1Data[4], week: currentWeek++});
+                fullData.push({...month1Data[0], week: currentWeek++}); //W3
+                fullData.push({...month1Data[1], week: currentWeek});
+                fullData.push({...month1Data[2], week: currentWeek++});
+                fullData.push({...month1Data[3], week: currentWeek});
+                fullData.push({...month1Data[4], week: currentWeek++});
+                fullData.push({...month1Data[0], week: currentWeek}); //W4
+                fullData.push({...month1Data[1], week: currentWeek});
+                fullData.push({...month1Data[2], week: currentWeek});
+                fullData.push({...month1Data[3], week: currentWeek});
+                fullData.push({...longFormData[0], day: 'Fri', week: currentWeek++});
+
+                // Month 2
+                fullData.push(...month2Data.slice(0, 5).map(i => ({...i, week: currentWeek++})));
+                fullData.push({...month2Data[0], week: currentWeek}); //W6
+                fullData.push({...month2Data[1], week: currentWeek});
+                fullData.push({...month2Data[2], week: currentWeek++});
+                fullData.push({...month2Data[3], week: currentWeek});
+                fullData.push({...month2Data[4], week: currentWeek++});
+                fullData.push({...month2Data[0], week: currentWeek}); //W7
+                fullData.push({...month2Data[1], week: currentWeek});
+                fullData.push({...month2Data[2], week: currentWeek++});
+                fullData.push({...month2Data[3], week: currentWeek});
+                fullData.push({...month2Data[4], week: currentWeek++});
+                fullData.push({...month2Data[0], week: currentWeek}); //W8
+                fullData.push({...month2Data[1], week: currentWeek});
+                fullData.push({...month2Data[2], week: currentWeek});
+                fullData.push({...month2Data[3], week: currentWeek});
+                fullData.push({...longFormData[1], day: 'Fri', week: currentWeek++});
+
+                // Month 3
+                fullData.push(...month3Data.slice(0, 5).map(i => ({...i, week: currentWeek++})));
+                fullData.push({...month3Data[0], week: currentWeek}); //W10
+                fullData.push({...month3Data[1], week: currentWeek});
+                fullData.push({...month3Data[2], week: currentWeek++});
+                fullData.push({...month3Data[3], week: currentWeek});
+                fullData.push({...month3Data[4], week: currentWeek++});
+                fullData.push({...month3Data[0], week: currentWeek}); //W11
+                fullData.push({...month3Data[1], week: currentWeek});
+                fullData.push({...month3Data[2], week: currentWeek++});
+                fullData.push({...month3Data[3], week: currentWeek});
+                fullData.push({...month3Data[4], week: currentWeek++});
+                fullData.push({...month3Data[0], week: currentWeek}); //W12
+                fullData.push({...month3Data[1], week: currentWeek});
+                fullData.push({...month3Data[2], week: currentWeek});
+                fullData.push({...month3Data[3], week: currentWeek});
+                fullData.push({...longFormData[2], day: 'Fri', week: currentWeek++});
+
+                return fullData.map((item, index) => ({...item, week: Math.floor(index / 5) + 1}));
+
+            }
+            const fullContentData = getFullContentData();
 
             function createAccordionItem(item) {
                 const pillarColors = {
@@ -118,11 +183,11 @@
                 button.className = 'w-full text-left p-4 bg-white rounded-lg hover:bg-gray-50 transition focus:outline-none';
                 button.innerHTML = `
                     <div class="flex items-center justify-between">
-                        <div class="flex items-center">
-                            <span class="font-bold text-gray-500 w-12">Wk ${item.week}</span>
-                            <span class="font-semibold text-gray-800">${item.title}</span>
+                        <div class="flex items-center min-w-0">
+                            <span class="font-bold text-gray-500 w-12 flex-shrink-0">Wk ${item.week}</span>
+                            <span class="font-semibold text-gray-800 truncate pr-2">${item.title}</span>
                         </div>
-                        <div class="flex items-center">
+                        <div class="flex items-center flex-shrink-0">
                              <span class="text-xs font-semibold px-2 py-1 rounded-full ${pillarColor}">${item.pillar}</span>
                              <svg class="w-5 h-5 ml-4 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                         </div>
@@ -131,13 +196,21 @@
                 
                 const content = document.createElement('div');
                 content.className = 'accordion-content';
-                content.innerHTML = `<div class="p-4 bg-gray-50 border-t border-gray-200 text-gray-700 whitespace-pre-wrap">${item.script}</div>`;
+                content.innerHTML = `<div class="p-4 bg-gray-50 border-t border-gray-200 text-gray-700 whitespace-pre-wrap">${item.script.replace(/\n/g, '<br>')}</div>`;
                 
                 container.appendChild(button);
                 container.appendChild(content);
 
                 button.addEventListener('click', () => {
                     const icon = button.querySelector('svg');
+                    
+                    document.querySelectorAll('.accordion-content').forEach((el) => {
+                        if (el !== content) {
+                            el.style.maxHeight = null;
+                            el.previousElementSibling.querySelector('svg').style.transform = 'rotate(0deg)';
+                        }
+                    });
+                    
                     if (content.style.maxHeight) {
                         content.style.maxHeight = null;
                         icon.style.transform = 'rotate(0deg)';
@@ -154,15 +227,18 @@
             const month2Container = document.getElementById('month2-scripts');
             const month3Container = document.getElementById('month3-scripts');
             
-            // Simplified data for demo
-            const month2Data = JSON.parse(JSON.stringify(contentData.filter(i => i.week <= 4))).map(i => ({...i, week: i.week + 4}));
-            const month3Data = JSON.parse(JSON.stringify(contentData.filter(i => i.week <= 4))).map(i => ({...i, week: i.week + 8}));
-            
-            contentData.filter(i => i.week <= 4).forEach(item => month1Container.appendChild(createAccordionItem(item)));
-            month2Data.forEach(item => month2Container.appendChild(createAccordionItem(item)));
-            month3Data.forEach(item => month3Container.appendChild(createAccordionItem(item)));
+            fullContentData.forEach(item => {
+                if (item.week <= 4) {
+                    month1Container.appendChild(createAccordionItem(item));
+                } else if (item.week <= 8) {
+                    month2Container.appendChild(createAccordionItem(item));
+                } else {
+                    month3Container.appendChild(createAccordionItem(item));
+                }
+            });
 
         });
     </script>
 </body>
 </html>
+
